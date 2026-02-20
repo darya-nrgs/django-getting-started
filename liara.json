@@ -9,5 +9,12 @@
             "mountTo": "media"
         }
     ],
-    "app": "mydjango-blog"
+    "app": "mydjango-blog",
+    "django": {
+    "mirror": false,
+    "pythonVersion": "3.12",
+    "timezone": "America/Los_Angeles",
+    "collectStatic": false
+  }
 }
+
